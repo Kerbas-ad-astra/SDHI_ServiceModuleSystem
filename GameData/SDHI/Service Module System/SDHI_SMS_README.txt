@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	3.1	(KSP 1.0.5)
+Version:	3.2	(KSP 1.1.3)
 
 Author: 	Robin "sumghai" Chang	sumdumghai@gmail.com
 
@@ -27,7 +27,7 @@ Disclaimer:	This parts pack is for an alpha game - Use at own risk.
 
  - Ship Manifest and Connected Living Spaces API (Papa_Joe) - if installed, crew transfer will be realistically limited to through the parachute-equipped docking ports
 
- - TAC Life Support (TaranisElsu) - if installed, will add a total of Kerbin eight day's worth of life support provisions to the Mk1-2 Pod and Service Module, plus Carbon Extractors and Water Filters 
+ - TAC Life Support (TaranisElsu / danfarnsy) - if installed, will add a total of Kerbin eight day's worth of life support provisions to the Mk1-2 Pod and Service Module, plus Carbon Extractors and Water Filters 
 
 
 ===How To Install===
@@ -62,6 +62,40 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+3.2 - 8 July 2016
+---------------------------
+
+WARNING: This is a craft and save-breaking update; it is recommended you abort / recover existing SDHI craft before installing this update
+
+Changes / Fixes:
+ - Compatibility Patch for KSP 1.1.3
+ - All models have been re-scaled to actual size in-game
+ - Side fairings have been overhauled
+ 	 - They now split into thirds rather than halves, and include built-in solid rocket jettison motors to help push the panels away cleanly after separation
+ - The parachute-equipped IACBM docking port has been updated to match the new design from FusTek Station Parts
+ 	 - The ports will now enforce docking orientation angles at 90 degree increments
+ - Updated support for tg626's Kerbal Optical Alignment System (KOAS) mod, previously known as the Docking Target mod
+     - This adds an inline docking camera and target to the parachute-equipped SDHI Clamp-o-Tron docking port
+
+
+3.1.1 - 23 April 2016
+---------------------------
+
+Changes / Fixes:
+ - Compatibility Patch for KSP 1.1
+ - Added support for DennyTX's OLDD docking camera plugin to both parachute-equipped docking ports
+ - All parts now have search tags
+ - Improved heat shield texture and normal map
+ - The fairingless LV-909 "Terrier" Liquid Fuel Engine has now been deprecated
+     - This is because the stock LV-909 now includes the ability to hide the engine shroud
+     - Existing crafts will not break, but users are encouraged to switch over to using the stock engine for new crafts
+ - The fuel cell in the Service Module and Avionics Ring can now be toggled using Action Groups
+ - The Launch Escape System (LES) has been reassigned to the more sensible Advanced Landing tech tree ndoe
+     - This is a Level 6 node, which puts it on par with the other SDHI SMS parts
+ - Tweaked the ModuleAnimateGeneric parameters used to prevent the Mk 1-2 Pod Umbilical Port from being toggleable outside VAB/SPH editor scene
+     - KSP 1.1 fixed some typos in the parameters used in KSP 1.0.5
+
+
 3.1 - 13 February 2016
 ---------------------------
 
